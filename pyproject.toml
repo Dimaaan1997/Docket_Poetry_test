@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "docket-poetry-test"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Batishchev <dmbatishchev@metapix.ai>"]
+readme = "README.md"
+packages = [{include = "docket_poetry_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.16"
+uvicorn = "^0.20.0"
+fastapi = "^0.92.0"
+pydantic = "^1.10.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
