@@ -1,10 +1,9 @@
 [tool.poetry]
-name = "docket-poetry-test"
+name = "docker-poetry-test"
 version = "0.1.0"
 description = ""
 authors = ["Dmitry Batishchev <dmbatishchev@metapix.ai>"]
 readme = "README.md"
-packages = [{include = "docket_poetry_test"}]
 
 [tool.poetry.dependencies]
 python = "^3.8.16"

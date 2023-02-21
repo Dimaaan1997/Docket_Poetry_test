@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from Docket_Poetry_test.shemas import Numbers
-from Docket_Poetry_test.functions import sum_numbers
+from docker_poetry_test.shemas import Numbers
+from docker_poetry_test.functions import sum_numbers
 
 app = FastAPI()
 
